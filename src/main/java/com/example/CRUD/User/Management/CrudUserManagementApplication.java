@@ -44,7 +44,7 @@ public class CrudUserManagementApplication {
 		userService.addUser(user);
 	}
 
-	@PutMapping(value = "/topics/{name}")
+	@PutMapping(value = "/users/{name}")
 	/**
 	 * Updating details of User
 	 */
@@ -53,7 +53,7 @@ public class CrudUserManagementApplication {
 		userService.updateUser(user,name);
 	}
 
-	@DeleteMapping(value = "/topics/{name}")
+	@DeleteMapping(value = "/users/{name}")
 	/**
 	 * Deleting details of User
 	 */
